@@ -1,0 +1,4 @@
+within Buildings.Applications.DHC.Loads;
+model test_CoolingLoad
+  extends Ideal_CoolingLoad_Yanfei;
+end test_CoolingLoad;
