@@ -1,6 +1,8 @@
 
 within Buildings.Applications.DHC.EnergyTransferStations;
-model CoolingIndirect
+
+model ets_cooling_indirect_templated
+
 
   "Indirect cooling energy transfer station for district energy systems"
   extends Buildings.Fluid.Interfaces.PartialFourPort(
@@ -363,4 +365,4 @@ November 1, 2019, by Kathryn Hinkelman:<br/>
 First implementation. </li>
 </ul>
 </html>"));
-end CoolingIndirect;
+end ets_cooling_indirect_templated;
