@@ -20,6 +20,11 @@ model CoolingIndirect
   
 
   
+  parameter Modelica.SIunits.MassFlowRate m2_flow_nominal(
+    final min=0,
+    start=0.5)
+    "Nominal mass flow rate of secondary (building) district cooling side";
+  
 
   
 
