@@ -27,6 +27,12 @@ model CoolingIndirect
   
 
   
+  // Primary supply control valve
+  parameter Modelica.SIunits.PressureDifference dpValve_nominal(
+    final min=0,
+    final displayUnit="Pa")=888
+    "Nominal pressure drop of fully open control valve";
+  
 
   
   // Heat exchanger
