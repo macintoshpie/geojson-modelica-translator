@@ -66,7 +66,7 @@ model CoolingIndirectOpenLoops
     T_start=280.15)
     "Building-side (secondary) supply temperature sensor"
     annotation (Placement(transformation(extent={{-50,-100},{-70,-80}})));
-  Buildings.Applications.DHC.EnergyTransferStations.CoolingIndirect coo(
+  Buildings.Applications.DHC.EnergyTransferStations.ets_cooling_indirect_templated.mo coo(
     redeclare package Medium = Medium,
     m1_flow_nominal=m1_flow_nominal,
     m2_flow_nominal=m2_flow_nominal,
