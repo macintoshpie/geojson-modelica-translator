@@ -181,8 +181,8 @@ The outlet temperature in the main loop results from transferring the enthalpy f
 individual fluid stream to the main fluid stream.
 </li>
 <li>
-The pressure drop in the main distribution loop corresponds to the pressure drop 
-over the whole distribution system (the pump head): it is governed by an equation representing 
+The pressure drop in the main distribution loop corresponds to the pressure drop
+over the whole distribution system (the pump head): it is governed by an equation representing
 the control logic of the main distribution pump. The pressure drop in each branch circuit is
 irrelevant: <code>dp_nominal</code> must be set to zero for each terminal unit component.
 </li>

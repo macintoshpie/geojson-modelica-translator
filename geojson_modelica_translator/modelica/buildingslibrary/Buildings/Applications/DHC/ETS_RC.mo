@@ -146,7 +146,7 @@ package ETS_RC "The connection of ETS and RC-building"
   Buildings.Controls.OBC.CDL.Interfaces.RealOutput Q_flowCooAct1[1]
     \"Actual cooling heat flow rate\"
     annotation (Placement(transformation(extent={{134,-88},{174,-48}})));
-equation 
+equation
   connect(weaDat.weaBus, building.weaBus) annotation (Line(
       points={{58,20},{84,20},{84,-20},{84.1,-20}},
       color={255,204,51},
@@ -208,7 +208,7 @@ equation
   coordinateSystem(preserveAspectRatio=false, extent={{-100,-140},{140,80}})),
   __Dymola_Commands(file=\"Resources/Scripts/Dymola/Applications/DHC/Loads/Examples/CouplingRC.mos\"
         \"Simulate and plot\"));
-        
+
 
 end ETS_RC;
 "));

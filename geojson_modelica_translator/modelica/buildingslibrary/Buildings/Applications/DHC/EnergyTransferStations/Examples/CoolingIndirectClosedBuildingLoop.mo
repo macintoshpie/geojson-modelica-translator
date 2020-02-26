@@ -193,15 +193,15 @@ equation
     StopTime=86400,
     Tolerance=1e-06),
   Documentation(info="<html>
-<p>This model provides an example for the indirect cooling energy transfer station model. 
-The cooling load ramps up from zero and is modulated according to the QCoo table specification. 
-The secondary (building) chilled water is varaible flow, with the mass flow rate being adjusted 
+<p>This model provides an example for the indirect cooling energy transfer station model.
+The cooling load ramps up from zero and is modulated according to the QCoo table specification.
+The secondary (building) chilled water is varaible flow, with the mass flow rate being adjusted
 depending on the total building load.</p>
 </html>", revisions="<html>
 <ul>
 <li>
 November 1, 2019, by Kathryn Hinkelman:<br/>
-First implementation. 
+First implementation.
 </li>
 </ul>
 </html>"));

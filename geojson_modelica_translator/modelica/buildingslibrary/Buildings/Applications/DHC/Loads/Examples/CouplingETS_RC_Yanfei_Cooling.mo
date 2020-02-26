@@ -171,8 +171,8 @@ equation
   annotation (
   Documentation(info="<html>
   <p>
-  This example illustrates the use of a house model (RC) from (Buildings.Applications.DHC.Loads.BaseClasses.RCBuilding), 
-  and a Energy Transfer Station (ETS) model from (Buildings.Applications.DHC.EnergyTransferStations.CoolingIndirect). 
+  This example illustrates the use of a house model (RC) from (Buildings.Applications.DHC.Loads.BaseClasses.RCBuilding),
+  and a Energy Transfer Station (ETS) model from (Buildings.Applications.DHC.EnergyTransferStations.CoolingIndirect).
   The house transfers heat from a a simplified air terminal to the ETS, under cooling mode.
   </p>
   </html>"),

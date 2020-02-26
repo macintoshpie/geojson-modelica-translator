@@ -166,13 +166,13 @@ equation
   Documentation(info="<html>
 <p>This model provides an example for the indirect cooling energy transfer station model.
 Both the district and building chilled water loops are open. The district supply temperature
-is modulating, while the modulating building return temperature mimics a theoretically 
+is modulating, while the modulating building return temperature mimics a theoretically
 variable cooling load at the building. </p>
 </html>", revisions="<html>
 <ul>
 <li>
 November 1, 2019, by Kathryn Hinkelman:<br/>
-First implementation. 
+First implementation.
 </li>
 </ul>
 </html>"));
